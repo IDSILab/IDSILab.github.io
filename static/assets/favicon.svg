@@ -1,11 +1,17 @@
-<svg width="64" height="64" viewBox="0 0 160 160" fill="none" xmlns="http://www.w3.org/2000/svg">
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 160 160" role="img" aria-label="IDSI Lab favicon">
   <rect width="160" height="160" rx="32" fill="#F7FAFC"/>
-  <path d="M113.5 30.5C100.8 20.8 84.3 16.8 68.3 20.6C41.8 26.9 23 50.3 22.3 77.5C21.7 105.7 41 130.2 68.5 136.4C85.3 140.2 102.6 136.1 116 125.8" stroke="#0D1B3D" stroke-width="10" stroke-linecap="round"/>
-  <path d="M118.2 42.8C130.4 55.5 136 73.6 132.3 91C129.3 105.3 120.4 117.7 107.8 125.1" stroke="#0F7F8C" stroke-width="10" stroke-linecap="round" stroke-dasharray="24 16"/>
-  <path d="M52 62L75 53L101 69L91 97L62 103L52 62Z" stroke="#0D1B3D" stroke-width="3"/>
-  <circle cx="52" cy="62" r="8" fill="#0D1B3D"/>
-  <circle cx="101" cy="69" r="11" fill="#0F7F8C"/>
-  <circle cx="91" cy="97" r="9" fill="#0D1B3D"/>
-  <circle cx="62" cy="103" r="10" fill="#0F7F8C"/>
-  <circle cx="80" cy="76" r="11" fill="#D4A017"/>
+  <path d="M113 31C94 18 69 16 48 27C21 40 6 70 14 99C22 129 50 149 81 146C92 145 103 141 113 134" stroke="#0D1B3D" stroke-width="10" stroke-linecap="round" fill="none"/>
+  <circle cx="123" cy="48" r="10" fill="#0F7F8C"/>
+  <circle cx="132" cy="67" r="3.6" fill="#0F7F8C"/>
+  <circle cx="137" cy="86" r="3.6" fill="#0F7F8C"/>
+  <circle cx="134" cy="105" r="3.6" fill="#0F7F8C"/>
+  <circle cx="126" cy="123" r="3.6" fill="#0F7F8C"/>
+  <path d="M49 64L75 56L103 74L91 105L65 111L49 64Z" stroke="#0D1B3D" stroke-width="3.2" stroke-linejoin="round" fill="none"/>
+  <path d="M75 56L65 111M49 64L91 105M75 56L91 105M103 74L65 111" stroke="#0D1B3D" stroke-opacity="0.82" stroke-width="2.6"/>
+  <circle cx="49" cy="64" r="8" fill="#0D1B3D"/>
+  <circle cx="75" cy="56" r="7.5" fill="#0D1B3D"/>
+  <circle cx="103" cy="74" r="11" fill="#F5A623"/>
+  <circle cx="91" cy="105" r="9" fill="#0D1B3D"/>
+  <circle cx="65" cy="111" r="10" fill="#0F7F8C"/>
+  <circle cx="119" cy="122" r="12" fill="#0F7F8C"/>
 </svg>
