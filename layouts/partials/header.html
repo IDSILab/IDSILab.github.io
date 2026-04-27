@@ -2,10 +2,6 @@
   <div class="container header-inner">
     <a class="brand" href="{{ "/" | relURL }}" aria-label="IDSI Lab home">
       <img src="{{ "assets/logo.svg" | relURL }}" alt="IDSI Lab logo">
-      <div>
-        <strong>IDSI Lab</strong>
-        <span>{{ .Site.Params.labNameZh }}</span>
-      </div>
     </a>
     <nav class="nav" aria-label="Primary navigation">
       <a href="{{ "/" | relURL }}" class="{{ if .IsHome }}active{{ end }}">首页</a>
