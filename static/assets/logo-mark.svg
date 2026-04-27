@@ -1,18 +1,17 @@
-<svg width="160" height="160" viewBox="0 0 160 160" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
-  <title id="title">IDSI Lab logo mark</title>
-  <desc id="desc">Final logo mark of IDSI Lab based on the B concept.</desc>
-  <path d="M113 30C95.3 20.3 73.5 18.7 53.7 27.8C29.5 38.9 16.4 65.7 22.7 91.2C29.4 118.5 54.6 136.4 82 133.9C92.5 132.9 102.3 129.3 110.4 123.9" stroke="#0D1B3D" stroke-width="11" stroke-linecap="round"/>
-  <path d="M137 63C146.3 81.1 144.2 104 132.1 120.3" stroke="#0F7F8C" stroke-width="11" stroke-linecap="round" stroke-dasharray="1 14"/>
-  <path d="M54 55L77 47L103 60L94 88L67 96L54 55Z" stroke="#0D1B3D" stroke-width="3" stroke-linejoin="round"/>
-  <path d="M77 47L67 96M54 55L94 88M77 47L94 88M103 60L67 96" stroke="#0D1B3D" stroke-opacity="0.82" stroke-width="2.2"/>
-  <circle cx="54" cy="55" r="8" fill="#0D1B3D"/>
-  <circle cx="77" cy="47" r="7" fill="#0D1B3D"/>
-  <circle cx="103" cy="60" r="11" fill="#0F7F8C"/>
-  <circle cx="94" cy="88" r="9" fill="#0D1B3D"/>
-  <circle cx="67" cy="96" r="10" fill="#0F7F8C"/>
-  <circle cx="81" cy="66" r="10.5" fill="#F5A623"/>
-  <circle cx="128" cy="66" r="3.4" fill="#0F7F8C"/>
-  <circle cx="132" cy="80" r="3.4" fill="#0F7F8C"/>
-  <circle cx="130" cy="94" r="3.4" fill="#0F7F8C"/>
-  <circle cx="123" cy="107" r="3.4" fill="#0F7F8C"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="160" height="160" viewBox="0 0 160 160" role="img" aria-label="IDSI Lab logo mark">
+  <rect width="160" height="160" fill="white"/>
+  <path d="M113 31C94 18 69 16 48 27C21 40 6 70 14 99C22 129 50 149 81 146C92 145 103 141 113 134" stroke="#0D1B3D" stroke-width="10" stroke-linecap="round" fill="none"/>
+  <circle cx="123" cy="48" r="10" fill="#0F7F8C"/>
+  <circle cx="132" cy="67" r="3.6" fill="#0F7F8C"/>
+  <circle cx="137" cy="86" r="3.6" fill="#0F7F8C"/>
+  <circle cx="134" cy="105" r="3.6" fill="#0F7F8C"/>
+  <circle cx="126" cy="123" r="3.6" fill="#0F7F8C"/>
+  <path d="M49 64L75 56L103 74L91 105L65 111L49 64Z" stroke="#0D1B3D" stroke-width="3.2" stroke-linejoin="round" fill="none"/>
+  <path d="M75 56L65 111M49 64L91 105M75 56L91 105M103 74L65 111" stroke="#0D1B3D" stroke-opacity="0.82" stroke-width="2.6"/>
+  <circle cx="49" cy="64" r="8" fill="#0D1B3D"/>
+  <circle cx="75" cy="56" r="7.5" fill="#0D1B3D"/>
+  <circle cx="103" cy="74" r="11" fill="#F5A623"/>
+  <circle cx="91" cy="105" r="9" fill="#0D1B3D"/>
+  <circle cx="65" cy="111" r="10" fill="#0F7F8C"/>
+  <circle cx="119" cy="122" r="12" fill="#0F7F8C"/>
 </svg>
