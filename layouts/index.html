@@ -1,0 +1,138 @@
+{{ define "main" }}
+<section class="hero">
+  <div class="container hero-grid">
+    <div class="hero-copy">
+      <h1>智能设计与系统创新实验室</h1>
+      <p class="hero-en">Lab for Intelligent Design and System Innovation</p>
+      <p class="hero-tags">知识驱动 <span>·</span> 人机协同 <span>·</span> 多模态交互 <span>·</span> 支持性设计</p>
+      <div class="hero-actions">
+        <a class="btn primary" href="{{ "/research/" | relURL }}">研究方向 <span>›</span></a>
+        <a class="btn ghost" href="{{ "/join/" | relURL }}">加入我们 <span>›</span></a>
+      </div>
+    </div>
+    <div class="hero-visual" aria-hidden="true">
+      <svg viewBox="0 0 560 430" role="img">
+        <defs>
+          <linearGradient id="arcGrad" x1="0" y1="0" x2="1" y2="1">
+            <stop offset="0" stop-color="#0D1B3D"/>
+            <stop offset="1" stop-color="#0F7F8C"/>
+          </linearGradient>
+        </defs>
+        <g opacity=".25" stroke="#7aa6bf" fill="none">
+          <ellipse cx="285" cy="210" rx="220" ry="96"/>
+          <ellipse cx="285" cy="210" rx="220" ry="96" transform="rotate(28 285 210)"/>
+          <ellipse cx="285" cy="210" rx="220" ry="96" transform="rotate(-25 285 210)"/>
+          <path d="M72 334 C180 250 290 402 486 292"/>
+        </g>
+        <path d="M368 74 A150 150 0 1 0 373 343" stroke="url(#arcGrad)" stroke-width="32" stroke-linecap="round" fill="none"/>
+        <g stroke="#0D1B3D" stroke-width="2.2">
+          <line x1="220" y1="162" x2="292" y2="130"/>
+          <line x1="292" y1="130" x2="360" y2="172"/>
+          <line x1="220" y1="162" x2="260" y2="238"/>
+          <line x1="260" y1="238" x2="345" y2="260"/>
+          <line x1="345" y1="260" x2="360" y2="172"/>
+          <line x1="260" y1="238" x2="415" y2="214"/>
+          <line x1="292" y1="130" x2="415" y2="214"/>
+        </g>
+        <g>
+          <circle cx="220" cy="162" r="13" fill="#0D1B3D"/>
+          <circle cx="292" cy="130" r="10" fill="#0F7F8C"/>
+          <circle cx="360" cy="172" r="18" fill="#0F7F8C"/>
+          <circle cx="260" cy="238" r="14" fill="#0D1B3D"/>
+          <circle cx="345" cy="260" r="12" fill="#0D1B3D"/>
+          <circle cx="415" cy="214" r="16" fill="#D4A017"/>
+        </g>
+      </svg>
+    </div>
+  </div>
+</section>
+
+<section class="section intro-cards">
+  <div class="container four-grid">
+    <article class="feature-card">
+      <div class="feature-icon">⌬</div>
+      <h3>知识驱动</h3>
+      <p>面向知识的设计建模与推理，挖掘领域知识，赋能智能设计生成与创新。</p>
+    </article>
+    <article class="feature-card">
+      <div class="feature-icon">◉</div>
+      <h3>人机协同</h3>
+      <p>促进人与智能系统的协同设计，提升设计效率与创造力，支持方案深化。</p>
+    </article>
+    <article class="feature-card">
+      <div class="feature-icon">▣</div>
+      <h3>多模态交互</h3>
+      <p>融合多模态感知与交互技术，实现自然、丰富与高效的人机交互体验。</p>
+    </article>
+    <article class="feature-card accent">
+      <div class="feature-icon">♡</div>
+      <h3>支持性设计</h3>
+      <p>关注人的能力增强与体验提升，开展支持性系统与产品的设计与评估研究。</p>
+    </article>
+  </div>
+</section>
+
+<section class="section research-home">
+  <div class="container">
+    <div class="section-title centered">
+      <span></span>
+      <div>
+        <h2>研究方向</h2>
+        <p>Research Directions</p>
+      </div>
+      <span></span>
+    </div>
+    <div class="research-panels">
+      <article class="research-panel panel-blue">
+        <div class="panel-art head-art"></div>
+        <div>
+          <h3>知识驱动的智能设计生成与设计推理</h3>
+          <ul>
+            <li>设计意图建模与知识表示</li>
+            <li>约束推理与概念方案生成</li>
+            <li>人机协同设计支持与方案演化</li>
+          </ul>
+          <a href="{{ "/research/" | relURL }}">了解更多 →</a>
+        </div>
+      </article>
+      <article class="research-panel panel-teal">
+        <div class="panel-art interaction-art"></div>
+        <div>
+          <h3>多模态交互与支持性设计</h3>
+          <ul>
+            <li>多模态状态感知与识别</li>
+            <li>游戏化交互与支持机制设计</li>
+            <li>支持性具身系统设计</li>
+          </ul>
+          <a href="{{ "/research/" | relURL }}">了解更多 →</a>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="section applications-home">
+  <div class="container">
+    <div class="section-title centered simple">
+      <h2>关键应用领域</h2>
+    </div>
+    <div class="app-grid">
+      <article class="app-card">
+        <div class="app-icon robot"></div>
+        <h3>复杂具身系统与仿生机器人</h3>
+        <p>面向复杂任务的具身系统设计、仿生结构与智能控制。</p>
+      </article>
+      <article class="app-card">
+        <div class="app-icon support"></div>
+        <h3>支持性具身系统与交互产品</h3>
+        <p>关注人机共融与能力支持，设计可理解、可用、可持续的交互产品。</p>
+      </article>
+      <article class="app-card">
+        <div class="app-icon mobility"></div>
+        <h3>未来出行与交通工具设计</h3>
+        <p>融合智能化、可持续与用户体验，探索未来出行解决方案。</p>
+      </article>
+    </div>
+  </div>
+</section>
+{{ end }}
