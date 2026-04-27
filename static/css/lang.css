@@ -83,30 +83,50 @@ html[lang="en"] .home-app-content h3 {
   }
 
   .home-feature-card {
+    display: grid !important;
     grid-template-columns: 58px minmax(0, 1fr) !important;
-    grid-template-rows: auto auto;
-    column-gap: 14px;
-    row-gap: 12px;
-    align-items: center;
+    grid-template-rows: auto !important;
+    column-gap: 14px !important;
+    row-gap: 0 !important;
+    align-items: start !important;
+    min-height: auto !important;
+    padding: 22px 18px 20px !important;
   }
 
   .home-feature-icon {
-    grid-column: 1;
-    grid-row: 1;
-    width: 54px;
-    height: 54px;
+    grid-column: 1 !important;
+    grid-row: 1 !important;
+    width: 54px !important;
+    height: 54px !important;
+    align-self: start !important;
+    margin: 0 !important;
+    position: static !important;
+  }
+
+  .home-feature-content {
+    display: block !important;
+    grid-column: 2 !important;
+    grid-row: 1 !important;
+    min-width: 0 !important;
+    width: 100% !important;
   }
 
   .home-feature-content h3 {
-    grid-column: 2;
-    grid-row: 1;
-    align-self: center;
-    margin: 0;
+    display: block !important;
+    grid-column: auto !important;
+    grid-row: auto !important;
+    margin: 0 0 7px !important;
+    align-self: auto !important;
+    line-height: 1.25 !important;
+    word-break: normal !important;
   }
 
   .home-feature-content p {
-    grid-column: 1 / -1;
-    grid-row: 2;
+    display: block !important;
+    grid-column: auto !important;
+    grid-row: auto !important;
+    margin: 0 !important;
+    line-height: 1.72 !important;
   }
 
   .home-app-card {
