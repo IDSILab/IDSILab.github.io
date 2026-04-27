@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="220" height="220" viewBox="0 0 220 220" role="img" aria-label="Multimodal interaction icon">
+  <defs><linearGradient id="g" x1="40" y1="50" x2="180" y2="170"><stop stop-color="#0D1B3D"/><stop offset="1" stop-color="#0F7F8C"/></linearGradient><filter id="s" x="-20%" y="-20%" width="140%" height="140%"><feDropShadow dx="0" dy="12" stdDeviation="12" flood-color="#0D1B3D" flood-opacity=".12"/></filter></defs>
+  <circle cx="110" cy="110" r="96" fill="#EAF7F8"/>
+  <g filter="url(#s)" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <rect x="38" y="47" width="133" height="105" rx="14" stroke="#0D1B3D" stroke-width="8"/>
+    <path d="M58 133h48M77 152v18M57 170h72" stroke="#0D1B3D" stroke-width="8"/>
+    <path d="M61 74h38v32H61z" stroke="url(#g)" stroke-width="6"/>
+    <path d="M62 106l15-16 12 10 10-13 15 19" stroke="#BDE6F3" stroke-width="5"/>
+    <path d="M116 82h14l8 18 11-38 13 55 10-23h14" stroke="#0F7F8C" stroke-width="8"/>
+    <path d="M128 132c0-11 18-11 18 0v17c7-6 18 1 17 10l-3 28" stroke="#0D1B3D" stroke-width="8"/>
+    <path d="M128 132v43l-21-25c-8-10-22 3-13 14l29 39" stroke="#0D1B3D" stroke-width="8"/>
+    <circle cx="139" cy="131" r="22" stroke="#BDE6F3" stroke-width="5" opacity=".65"/>
+  </g>
+</svg>
