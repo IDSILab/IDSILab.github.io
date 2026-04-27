@@ -1,5 +1,28 @@
 /* Desktop-wide layout refinements for IDSI Lab website.
-   This file only affects larger screens and keeps mobile layout unchanged. */
+   This file also locks the finalized B-version logo proportions. */
+
+.brand {
+  display: inline-flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+
+.brand img {
+  width: 280px;
+  height: auto;
+  max-height: 76px;
+  object-fit: contain;
+  display: block;
+}
+
+.footer-brand img {
+  width: 72px;
+  height: 72px;
+  object-fit: contain;
+  background: #fff;
+  border-radius: 50%;
+  padding: 8px;
+}
 
 @media (min-width: 1181px) {
   .container {
@@ -8,6 +31,11 @@
 
   .header-inner {
     min-height: 96px;
+  }
+
+  .brand img {
+    width: 310px;
+    max-height: 82px;
   }
 
   .hero-grid {
@@ -75,5 +103,19 @@
 
   .hero-grid {
     gap: 86px;
+  }
+}
+
+@media (max-width: 860px) {
+  .brand img {
+    width: 220px;
+    max-height: 62px;
+  }
+}
+
+@media (max-width: 520px) {
+  .brand img {
+    width: 190px;
+    max-height: 54px;
   }
 }
