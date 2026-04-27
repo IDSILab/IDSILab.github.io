@@ -175,7 +175,7 @@
 
 .home-research-card {
   position: relative;
-  min-height: 190px;
+  min-height: 210px;
   display: block;
   overflow: hidden;
   border-radius: 14px;
@@ -213,7 +213,7 @@
 .home-research-content {
   position: relative;
   z-index: 2;
-  max-width: 62%;
+  max-width: 64%;
   padding: 28px 28px 24px 28px;
   color: #fff;
 }
@@ -227,23 +227,18 @@
 }
 
 .home-research-content h3 {
-  margin: 0 0 14px;
+  margin: 0 0 12px;
   color: #fff;
   font-size: 19px;
   line-height: 1.45;
   font-weight: 900;
 }
 
-.home-research-content ul {
+.home-research-desc {
   margin: 0 0 14px;
-  padding-left: 1.15em;
-}
-
-.home-research-content li {
-  margin: 6px 0;
-  color: rgba(255, 255, 255, .96);
+  color: rgba(255, 255, 255, .94);
   font-size: 15px;
-  line-height: 1.7;
+  line-height: 1.74;
 }
 
 .home-research-more {
@@ -449,7 +444,7 @@
   }
 
   .home-research-card {
-    min-height: 220px;
+    min-height: 240px;
   }
 
   .home-research-content,
@@ -469,9 +464,9 @@
     font-size: 18px;
   }
 
-  .home-research-content li {
+  .home-research-desc {
     font-size: 14px;
-    line-height: 1.65;
+    line-height: 1.68;
   }
 
   .home-research-more {
