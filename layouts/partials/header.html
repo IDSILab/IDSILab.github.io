@@ -21,13 +21,13 @@
       <a href="{{ "/join/" | relLangURL }}" class="{{ if eq .RelPermalink "/join/" }}active{{ end }}">招生</a>
       <a href="{{ "/contact/" | relLangURL }}" class="{{ if eq .RelPermalink "/contact/" }}active{{ end }}">联系</a>
       {{ end }}
+      <span class="lang-switch" aria-label="Language switcher">
+        {{ if eq .Site.Language.Lang "en" }}
+        <a href="{{ replaceRE "^/en" "" .RelPermalink }}">中文</a>
+        {{ else }}
+        <a href="{{ printf "/en%s" .RelPermalink }}">EN</a>
+        {{ end }}
+      </span>
     </nav>
-    <div class="lang-switch" aria-label="Language switcher">
-      {{ if eq .Site.Language.Lang "en" }}
-      <a href="{{ replaceRE "^/en" "" .RelPermalink }}">中文</a>
-      {{ else }}
-      <a href="{{ printf "/en%s" .RelPermalink }}">EN</a>
-      {{ end }}
-    </div>
   </div>
 </header>
