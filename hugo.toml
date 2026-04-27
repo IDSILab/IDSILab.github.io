@@ -1,0 +1,18 @@
+baseURL = 'https://IDSILab.github.io/'
+languageCode = 'zh-CN'
+title = 'IDSI Lab'
+disableKinds = ['taxonomy', 'term']
+
+[params]
+  labNameZh = '智能设计与系统创新实验室'
+  labNameEn = 'Lab for Intelligent Design and System Innovation'
+  abbreviation = 'IDSI Lab'
+  descriptionZh = '知识驱动 · 人机协同 · 多模态交互 · 支持性设计'
+  descriptionEn = 'Knowledge-driven design · Human-AI collaboration · Multimodal interaction · Supportive design'
+  email = 'contact@idsi-lab.org'
+  location = 'China'
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
