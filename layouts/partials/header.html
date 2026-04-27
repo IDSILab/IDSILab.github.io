@@ -1,0 +1,19 @@
+<header class="site-header">
+  <div class="container header-inner">
+    <a class="brand" href="{{ "/" | relURL }}" aria-label="IDSI Lab home">
+      <img src="{{ "assets/logo.svg" | relURL }}" alt="IDSI Lab logo">
+      <div>
+        <strong>IDSI Lab</strong>
+        <span>{{ .Site.Params.labNameZh }}</span>
+      </div>
+    </a>
+    <nav class="nav" aria-label="Primary navigation">
+      <a href="{{ "/" | relURL }}" class="{{ if .IsHome }}active{{ end }}">首页</a>
+      <a href="{{ "/research/" | relURL }}" class="{{ if eq .RelPermalink "/research/" }}active{{ end }}">研究方向</a>
+      <a href="{{ "/team/" | relURL }}" class="{{ if eq .RelPermalink "/team/" }}active{{ end }}">团队</a>
+      <a href="{{ "/outputs/" | relURL }}" class="{{ if eq .RelPermalink "/outputs/" }}active{{ end }}">成果</a>
+      <a href="{{ "/join/" | relURL }}" class="{{ if eq .RelPermalink "/join/" }}active{{ end }}">招生</a>
+      <a href="{{ "/contact/" | relURL }}" class="{{ if eq .RelPermalink "/contact/" }}active{{ end }}">联系</a>
+    </nav>
+  </div>
+</header>
