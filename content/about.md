@@ -1,5 +1,5 @@
 ---
-title: "实验室简介"
+title: "关于 IDSI Lab"
 subtitle: "Laboratory Overview"
 ---
 
