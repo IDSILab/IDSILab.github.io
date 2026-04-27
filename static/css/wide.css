@@ -243,10 +243,10 @@
 
 .home-app-card {
   display: grid;
-  grid-template-columns: 74px minmax(0, 1fr) auto;
+  grid-template-columns: 92px minmax(0, 1fr) auto;
   align-items: center;
   gap: 18px;
-  min-height: 108px;
+  min-height: 116px;
   padding: 20px 22px;
   background: #fff;
   border: 1px solid #E3EAF3;
@@ -255,10 +255,15 @@
 }
 
 .home-app-icon {
-  width: 62px;
-  height: 62px;
+  width: 84px;
+  height: 84px;
   object-fit: contain;
   display: block;
+  align-self: center;
+}
+
+.home-app-content {
+  align-self: center;
 }
 
 .home-app-content h3 {
@@ -404,13 +409,14 @@
   }
 
   .home-app-card {
-    grid-template-columns: 60px minmax(0, 1fr) auto;
+    grid-template-columns: 76px minmax(0, 1fr) auto;
+    min-height: 108px;
     padding: 18px;
   }
 
   .home-app-icon {
-    width: 52px;
-    height: 52px;
+    width: 68px;
+    height: 68px;
   }
 }
 
