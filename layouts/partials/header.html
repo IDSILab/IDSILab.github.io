@@ -5,6 +5,7 @@
     </a>
     <nav class="nav" aria-label="Primary navigation">
       <a href="{{ "/" | relURL }}" class="{{ if .IsHome }}active{{ end }}">首页</a>
+      <a href="{{ "/about/" | relURL }}" class="{{ if eq .RelPermalink "/about/" }}active{{ end }}">实验室简介</a>
       <a href="{{ "/research/" | relURL }}" class="{{ if eq .RelPermalink "/research/" }}active{{ end }}">研究方向</a>
       <a href="{{ "/team/" | relURL }}" class="{{ if eq .RelPermalink "/team/" }}active{{ end }}">团队</a>
       <a href="{{ "/outputs/" | relURL }}" class="{{ if eq .RelPermalink "/outputs/" }}active{{ end }}">成果</a>
