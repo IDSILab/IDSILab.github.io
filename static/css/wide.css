@@ -1,5 +1,5 @@
 /* Desktop-wide layout refinements for IDSI Lab website.
-   Homepage refinements follow the reference layout: horizontal feature cards,
+   Homepage refinements follow the reference layout: vertical feature cards,
    image-led research cards, and compact application cards. */
 
 .brand {
@@ -34,24 +34,26 @@
 }
 
 .home-feature-section {
-  padding-top: 28px;
-  padding-bottom: 26px;
+  padding-top: 30px;
+  padding-bottom: 28px;
   background: #fff;
 }
 
 .home-feature-grid {
   display: grid;
   grid-template-columns: repeat(4, minmax(0, 1fr));
-  gap: 22px;
+  gap: 20px;
 }
 
 .home-feature-card {
   display: grid;
-  grid-template-columns: 74px minmax(0, 1fr);
-  align-items: start;
-  gap: 18px;
-  min-height: 172px;
-  padding: 24px 22px;
+  grid-template-columns: 76px minmax(0, 1fr);
+  grid-template-rows: auto 1fr;
+  align-items: center;
+  column-gap: 18px;
+  row-gap: 14px;
+  min-height: 220px;
+  padding: 30px 28px 26px;
   background: #fff;
   border: 1px solid #E4EBF4;
   border-radius: 14px;
@@ -73,25 +75,36 @@
 }
 
 .home-feature-icon {
-  width: 66px;
-  height: 66px;
+  grid-column: 1;
+  grid-row: 1;
+  width: 72px;
+  height: 72px;
   object-fit: contain;
   display: block;
 }
 
+.home-feature-content {
+  display: contents;
+}
+
 .home-feature-content h3 {
-  margin: 2px 0 10px;
+  grid-column: 2;
+  grid-row: 1;
+  align-self: center;
+  margin: 0;
   color: #0D1B3D;
   font-size: 24px;
-  line-height: 1.26;
+  line-height: 1.25;
   font-weight: 900;
 }
 
 .home-feature-content p {
+  grid-column: 1 / -1;
+  grid-row: 2;
   margin: 0;
   color: #485871;
   font-size: 16px;
-  line-height: 1.82;
+  line-height: 1.88;
 }
 
 .home-section-heading {
@@ -358,13 +371,14 @@
   }
 
   .home-feature-card {
+    grid-template-columns: 62px minmax(0, 1fr);
     min-height: auto;
-    padding: 20px;
+    padding: 22px 20px 20px;
   }
 
   .home-feature-icon {
-    width: 56px;
-    height: 56px;
+    width: 58px;
+    height: 58px;
   }
 
   .home-section-heading .line {
@@ -413,6 +427,11 @@
   .home-feature-card,
   .home-app-card {
     grid-template-columns: 1fr;
+  }
+
+  .home-feature-content h3,
+  .home-feature-content p {
+    grid-column: 1;
   }
 
   .home-app-arrow {
