@@ -9,16 +9,30 @@
       </div>
     </div>
     <div>
+      {{ if eq .Site.Language.Lang "en" }}
+      <h3>Contact</h3>
+      <p>📍 {{ .Site.Params.location }}</p>
+      <p>✉ {{ .Site.Params.email }}</p>
+      <p>🌐 https://IDSILab.github.io/</p>
+      {{ else }}
       <h3>联系我们</h3>
       <p>📍 {{ .Site.Params.location }}</p>
       <p>✉ {{ .Site.Params.email }}</p>
       <p>🌐 https://IDSILab.github.io/</p>
+      {{ end }}
     </div>
     <div>
+      {{ if eq .Site.Language.Lang "en" }}
+      <h3>Quick Links</h3>
+      <p><a href="{{ "/research/" | relLangURL }}">Research</a></p>
+      <p><a href="{{ "/join/" | relLangURL }}">Join Us</a></p>
+      <p><a href="{{ "/outputs/" | relLangURL }}">Outputs</a></p>
+      {{ else }}
       <h3>快速链接</h3>
-      <p><a href="{{ "/research/" | relURL }}">研究方向</a></p>
-      <p><a href="{{ "/join/" | relURL }}">招生信息</a></p>
-      <p><a href="{{ "/outputs/" | relURL }}">研究成果</a></p>
+      <p><a href="{{ "/research/" | relLangURL }}">研究方向</a></p>
+      <p><a href="{{ "/join/" | relLangURL }}">招生信息</a></p>
+      <p><a href="{{ "/outputs/" | relLangURL }}">研究成果</a></p>
+      {{ end }}
     </div>
   </div>
   <div class="copyright">© {{ now.Format "2006" }} IDSI Lab. All Rights Reserved.</div>
