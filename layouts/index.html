@@ -16,90 +16,113 @@
   </div>
 </section>
 
-<section class="section intro-cards">
-  <div class="container four-grid">
-    <article class="feature-card">
-      <img class="feature-icon image-icon" src="{{ "assets/home/icon-knowledge.png" | relURL }}" alt="">
-      <h3>知识驱动</h3>
-      <p>面向知识的设计建模与推理，挖掘领域知识，赋能智能设计生成与创新。</p>
+<section class="section home-feature-section">
+  <div class="container home-feature-grid">
+    <article class="home-feature-card">
+      <img class="home-feature-icon" src="{{ "assets/home/icon-knowledge.png" | relURL }}" alt="">
+      <div class="home-feature-content">
+        <h3>知识驱动</h3>
+        <p>面向知识的设计建模与推理，挖掘领域知识，赋能智能设计生成与创新。</p>
+      </div>
     </article>
-    <article class="feature-card">
-      <img class="feature-icon image-icon" src="{{ "assets/home/icon-collaboration.png" | relURL }}" alt="">
-      <h3>人机协同</h3>
-      <p>促进人与智能系统的协同设计，提升设计效率与创造力，支持方案深化。</p>
+    <article class="home-feature-card">
+      <img class="home-feature-icon" src="{{ "assets/home/icon-collaboration.png" | relURL }}" alt="">
+      <div class="home-feature-content">
+        <h3>人机协同</h3>
+        <p>促进人与智能系统的协同设计，提升设计效率与创造力，支持方案深化。</p>
+      </div>
     </article>
-    <article class="feature-card">
-      <img class="feature-icon image-icon" src="{{ "assets/home/icon-multimodal.png" | relURL }}" alt="">
-      <h3>多模态交互</h3>
-      <p>融合多模态感知与交互技术，实现自然、丰富与高效的人机交互体验。</p>
+    <article class="home-feature-card">
+      <img class="home-feature-icon" src="{{ "assets/home/icon-multimodal.png" | relURL }}" alt="">
+      <div class="home-feature-content">
+        <h3>多模态交互</h3>
+        <p>融合多模态感知与交互技术，实现自然、丰富与高效的人机交互体验。</p>
+      </div>
     </article>
-    <article class="feature-card accent">
-      <img class="feature-icon image-icon" src="{{ "assets/home/icon-supportive.png" | relURL }}" alt="">
-      <h3>支持性设计</h3>
-      <p>关注人的能力增强与体验提升，开展支持性系统与产品的设计与评估研究。</p>
+    <article class="home-feature-card accent">
+      <img class="home-feature-icon" src="{{ "assets/home/icon-supportive.png" | relURL }}" alt="">
+      <div class="home-feature-content">
+        <h3>支持性设计</h3>
+        <p>关注人的能力增强与体验提升，开展支持性系统与产品的设计与评估研究。</p>
+      </div>
     </article>
   </div>
 </section>
 
-<section class="section research-home">
+<section class="section home-research-section">
   <div class="container">
-    <div class="section-title centered">
-      <span></span>
-      <div>
+    <div class="home-section-heading">
+      <span class="line"></span>
+      <div class="text">
         <h2>研究方向</h2>
         <p>Research Directions</p>
       </div>
-      <span></span>
+      <span class="line"></span>
     </div>
-    <div class="research-panels">
-      <article class="research-panel panel-blue">
-        <img class="panel-art image-panel-art" src="{{ "assets/home/icon-knowledge.png" | relURL }}" alt="">
-        <div>
+    <div class="home-research-grid">
+      <article class="home-research-card">
+        <div class="home-research-image">
+          <img src="{{ "assets/home/RD1.png" | relURL }}" alt="知识驱动的智能设计生成与设计推理">
+        </div>
+        <div class="home-research-content">
           <h3>知识驱动的智能设计生成与设计推理</h3>
           <ul>
             <li>设计意图建模与知识表示</li>
             <li>约束推理与概念方案生成</li>
             <li>人机协同设计支持与方案演化</li>
           </ul>
-          <a href="{{ "/research/" | relURL }}">了解更多 →</a>
         </div>
       </article>
-      <article class="research-panel panel-teal">
-        <img class="panel-art image-panel-art" src="{{ "assets/home/icon-multimodal.png" | relURL }}" alt="">
-        <div>
+      <article class="home-research-card teal">
+        <div class="home-research-image">
+          <img src="{{ "assets/home/RD2.png" | relURL }}" alt="多模态交互与支持性设计">
+        </div>
+        <div class="home-research-content">
           <h3>多模态交互与支持性设计</h3>
           <ul>
             <li>多模态状态感知与识别</li>
             <li>游戏化交互与支持机制设计</li>
             <li>支持性具身系统设计</li>
           </ul>
-          <a href="{{ "/research/" | relURL }}">了解更多 →</a>
         </div>
       </article>
     </div>
   </div>
 </section>
 
-<section class="section applications-home">
+<section class="section home-app-section">
   <div class="container">
-    <div class="section-title centered simple">
-      <h2>关键应用领域</h2>
+    <div class="home-section-heading simple">
+      <span class="line"></span>
+      <div class="text">
+        <h2>关键应用领域</h2>
+      </div>
+      <span class="line"></span>
     </div>
-    <div class="app-grid">
-      <article class="app-card">
-        <img class="app-icon image-app-icon" src="{{ "assets/home/icon-robotics.png" | relURL }}" alt="">
-        <h3>复杂具身系统与仿生机器人</h3>
-        <p>面向复杂任务的具身系统设计、仿生结构与智能控制。</p>
+    <div class="home-app-grid">
+      <article class="home-app-card">
+        <img class="home-app-icon" src="{{ "assets/home/icon-robotics.png" | relURL }}" alt="">
+        <div class="home-app-content">
+          <h3>复杂具身系统与仿生机器人</h3>
+          <p>面向复杂任务的具身系统设计、仿生结构与智能控制。</p>
+        </div>
+        <span class="home-app-arrow">›</span>
       </article>
-      <article class="app-card">
-        <img class="app-icon image-app-icon" src="{{ "assets/home/icon-embodied-support.png" | relURL }}" alt="">
-        <h3>支持性具身系统与交互产品</h3>
-        <p>关注人机共融与能力支持，设计可理解、可用、可持续的交互产品。</p>
+      <article class="home-app-card">
+        <img class="home-app-icon" src="{{ "assets/home/icon-embodied-support.png" | relURL }}" alt="">
+        <div class="home-app-content">
+          <h3>支持性具身系统与交互产品</h3>
+          <p>关注人机共融与能力支持，设计可理解、可用、可持续的交互产品。</p>
+        </div>
+        <span class="home-app-arrow">›</span>
       </article>
-      <article class="app-card">
-        <img class="app-icon image-app-icon" src="{{ "assets/home/icon-mobility.png" | relURL }}" alt="">
-        <h3>未来出行与交通工具设计</h3>
-        <p>融合智能化、可持续与用户体验，探索未来出行解决方案。</p>
+      <article class="home-app-card">
+        <img class="home-app-icon" src="{{ "assets/home/icon-mobility.png" | relURL }}" alt="">
+        <div class="home-app-content">
+          <h3>未来出行与交通工具设计</h3>
+          <p>融合智能化、可持续与用户体验，探索未来出行解决方案。</p>
+        </div>
+        <span class="home-app-arrow">›</span>
       </article>
     </div>
   </div>
