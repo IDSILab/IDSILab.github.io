@@ -1,11 +1,14 @@
 <!doctype html>
-<html lang="zh-CN">
+<html lang="{{ .Site.Language.Lang }}">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="{{ .Site.Params.labNameEn }}">
+  <meta name="description" content="{{ if eq .Site.Language.Lang "en" }}{{ .Site.Params.descriptionEn }}{{ else }}{{ .Site.Params.descriptionZh }}{{ end }}">
   <title>{{ if .IsHome }}{{ .Site.Title }} | {{ .Site.Params.labNameEn }}{{ else }}{{ .Title }} | {{ .Site.Title }}{{ end }}</title>
   <link rel="icon" href="{{ "assets/favicon.svg" | relURL }}" type="image/svg+xml">
+  {{ range .AllTranslations }}
+  <link rel="alternate" hreflang="{{ .Language.Lang }}" href="{{ .Permalink }}">
+  {{ end }}
   <link rel="stylesheet" href="{{ "css/styles.css" | relURL }}">
   <link rel="stylesheet" href="{{ "css/wide.css" | relURL }}">
 </head>
