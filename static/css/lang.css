@@ -81,4 +81,35 @@ html[lang="en"] .home-app-content h3 {
     white-space: normal;
     font-size: clamp(28px, 8.5vw, 36px);
   }
+
+  .home-feature-card {
+    grid-template-columns: 58px minmax(0, 1fr) !important;
+    grid-template-rows: auto auto;
+    column-gap: 14px;
+    row-gap: 12px;
+    align-items: center;
+  }
+
+  .home-feature-icon {
+    grid-column: 1;
+    grid-row: 1;
+    width: 54px;
+    height: 54px;
+  }
+
+  .home-feature-content h3 {
+    grid-column: 2;
+    grid-row: 1;
+    align-self: center;
+    margin: 0;
+  }
+
+  .home-feature-content p {
+    grid-column: 1 / -1;
+    grid-row: 2;
+  }
+
+  .home-app-card {
+    grid-template-columns: 1fr;
+  }
 }
