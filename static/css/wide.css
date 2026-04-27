@@ -112,6 +112,89 @@
   line-height: 1.88;
 }
 
+.home-about-section {
+  padding-top: 22px;
+  padding-bottom: 34px;
+  background: linear-gradient(180deg, #fff 0%, #F8FBFE 100%);
+}
+
+.home-about-card {
+  display: grid;
+  grid-template-columns: minmax(220px, 0.34fr) minmax(0, 1fr);
+  gap: 34px;
+  align-items: center;
+  padding: 34px 40px;
+  border: 1px solid #E3EAF3;
+  border-radius: 18px;
+  background: linear-gradient(135deg, rgba(13, 27, 61, .98) 0%, rgba(8, 61, 153, .96) 54%, rgba(15, 127, 140, .92) 100%);
+  box-shadow: 0 18px 42px rgba(13, 27, 61, .13);
+  overflow: hidden;
+  position: relative;
+}
+
+.home-about-card::before {
+  content: "";
+  position: absolute;
+  width: 280px;
+  height: 280px;
+  right: -90px;
+  top: -120px;
+  border-radius: 50%;
+  background: radial-gradient(circle, rgba(255, 255, 255, .18), rgba(255, 255, 255, 0) 62%);
+}
+
+.home-about-heading,
+.home-about-body {
+  position: relative;
+  z-index: 1;
+}
+
+.home-about-heading span {
+  display: inline-block;
+  margin-bottom: 10px;
+  color: rgba(255, 255, 255, .68);
+  font-size: 14px;
+  font-weight: 800;
+  letter-spacing: .12em;
+  text-transform: uppercase;
+}
+
+.home-about-heading h2 {
+  margin: 0;
+  color: #fff;
+  font-size: 36px;
+  line-height: 1.18;
+  font-weight: 900;
+  letter-spacing: .08em;
+}
+
+.home-about-body p {
+  margin: 0 0 12px;
+  color: rgba(255, 255, 255, .92);
+  font-size: 17px;
+  line-height: 1.86;
+}
+
+.home-about-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 18px;
+}
+
+.home-about-tags span {
+  display: inline-flex;
+  align-items: center;
+  min-height: 32px;
+  padding: 6px 14px;
+  border: 1px solid rgba(255, 255, 255, .28);
+  border-radius: 999px;
+  color: rgba(255, 255, 255, .95);
+  background: rgba(255, 255, 255, .09);
+  font-size: 14px;
+  font-weight: 800;
+}
+
 .home-section-heading {
   display: flex;
   align-items: center;
@@ -391,6 +474,11 @@
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
+  .home-about-card {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+
   .home-research-grid,
   .home-app-grid {
     grid-template-columns: 1fr;
@@ -432,6 +520,20 @@
   .home-feature-icon {
     width: 58px;
     height: 58px;
+  }
+
+  .home-about-card {
+    padding: 28px 24px;
+    border-radius: 16px;
+  }
+
+  .home-about-heading h2 {
+    font-size: 30px;
+  }
+
+  .home-about-body p {
+    font-size: 15px;
+    line-height: 1.78;
   }
 
   .home-section-heading .line {
