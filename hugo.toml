@@ -1,16 +1,45 @@
 baseURL = 'https://IDSILab.github.io/'
-languageCode = 'zh-CN'
 title = 'IDSI Lab'
+defaultContentLanguage = 'zh'
+defaultContentLanguageInSubdir = false
 disableKinds = ['taxonomy', 'term']
 
 [params]
   labNameZh = '智能设计与系统创新实验室'
   labNameEn = 'Lab for Intelligent Design and System Innovation'
   abbreviation = 'IDSI Lab'
-  descriptionZh = '知识驱动 · 人机协同 · 多模态交互 · 支持性设计'
-  descriptionEn = 'Knowledge-driven design · Human-AI collaboration · Multimodal interaction · Supportive design'
+  descriptionZh = '以知识驱动设计，用智能重塑系统创新'
+  descriptionEn = 'Design with knowledge, reshape system innovation with intelligence.'
   email = 'contact@idsi-lab.org'
   location = 'China'
+
+[languages]
+  [languages.zh]
+    languageCode = 'zh-CN'
+    languageName = '中文'
+    weight = 1
+    title = 'IDSI Lab'
+    [languages.zh.params]
+      labNameZh = '智能设计与系统创新实验室'
+      labNameEn = 'Lab for Intelligent Design and System Innovation'
+      abbreviation = 'IDSI Lab'
+      descriptionZh = '以知识驱动设计，用智能重塑系统创新'
+      descriptionEn = 'Design with knowledge, reshape system innovation with intelligence.'
+      email = 'contact@idsi-lab.org'
+      location = 'China'
+  [languages.en]
+    languageCode = 'en'
+    languageName = 'English'
+    weight = 2
+    title = 'IDSI Lab'
+    [languages.en.params]
+      labNameZh = '智能设计与系统创新实验室'
+      labNameEn = 'Lab for Intelligent Design and System Innovation'
+      abbreviation = 'IDSI Lab'
+      descriptionZh = '以知识驱动设计，用智能重塑系统创新'
+      descriptionEn = 'Design with knowledge, reshape system innovation with intelligence.'
+      email = 'contact@idsi-lab.org'
+      location = 'China'
 
 [markup]
   [markup.goldmark]
