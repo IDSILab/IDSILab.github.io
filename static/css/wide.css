@@ -1,5 +1,5 @@
 /* Desktop-wide layout refinements for IDSI Lab website.
-   This file also locks the finalized B-version logo proportions. */
+   This file also locks the finalized B-version logo proportions and homepage PNG display. */
 
 .brand {
   display: inline-flex;
@@ -22,6 +22,51 @@
   background: #fff;
   border-radius: 50%;
   padding: 8px;
+}
+
+.hero-visual img {
+  width: min(100%, 560px);
+  height: auto;
+  display: block;
+  object-fit: contain;
+  filter: drop-shadow(0 24px 42px rgba(13, 27, 61, .12));
+}
+
+.feature-icon.image-icon {
+  width: 72px;
+  height: 72px;
+  object-fit: contain;
+  display: block;
+  padding: 0;
+  background: transparent;
+  border-radius: 0;
+}
+
+.research-panel .image-panel-art {
+  width: 150px;
+  height: 150px;
+  object-fit: contain;
+  border: 0;
+  background: rgba(255, 255, 255, .08);
+  border-radius: 18px;
+  padding: 12px;
+}
+
+.app-icon.image-app-icon {
+  width: 66px;
+  height: 66px;
+  object-fit: contain;
+  display: block;
+  background: transparent;
+  border-radius: 0;
+}
+
+.app-icon.image-app-icon::before,
+.feature-icon.image-icon::before,
+.research-panel .image-panel-art::before,
+.research-panel .image-panel-art::after {
+  display: none;
+  content: none;
 }
 
 @media (min-width: 1181px) {
@@ -57,7 +102,8 @@
     height: 500px;
   }
 
-  .hero-visual svg {
+  .hero-visual svg,
+  .hero-visual img {
     width: min(100%, 640px);
   }
 
@@ -111,11 +157,34 @@
     width: 220px;
     max-height: 62px;
   }
+
+  .hero-visual img {
+    width: min(92vw, 390px);
+    filter: drop-shadow(0 14px 28px rgba(13, 27, 61, .10));
+  }
+
+  .feature-icon.image-icon {
+    width: 58px;
+    height: 58px;
+  }
+
+  .research-panel .image-panel-art {
+    display: none;
+  }
+
+  .app-icon.image-app-icon {
+    width: 54px;
+    height: 54px;
+  }
 }
 
 @media (max-width: 520px) {
   .brand img {
     width: 190px;
     max-height: 54px;
+  }
+
+  .hero-visual img {
+    width: 92vw;
   }
 }
