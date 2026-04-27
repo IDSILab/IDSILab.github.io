@@ -1,7 +1,9 @@
 .lang-switch {
   display: inline-flex;
   align-items: center;
-  flex: 0 0 auto;
+  margin-left: 6px;
+  padding-left: 14px;
+  border-left: 1px solid rgba(13, 27, 61, .18);
 }
 
 .lang-switch a {
@@ -9,7 +11,7 @@
   align-items: center;
   justify-content: center;
   min-width: 44px;
-  padding: 8px 13px;
+  padding: 7px 12px;
   border: 1px solid rgba(15, 127, 140, .28);
   border-radius: 999px;
   color: #0F7F8C;
@@ -17,7 +19,6 @@
   font-size: 14px;
   font-weight: 900;
   line-height: 1;
-  white-space: nowrap;
 }
 
 .lang-switch a::after {
@@ -46,41 +47,27 @@ html[lang="en"] .home-app-content h3 {
 }
 
 @media (max-width: 1180px) {
+  .lang-switch {
+    margin-left: 0;
+    padding-left: 10px;
+  }
+
   .lang-switch a {
-    padding: 7px 11px;
+    padding: 7px 10px;
     min-width: 40px;
   }
 }
 
 @media (max-width: 860px) {
-  .header-inner {
-    grid-template-columns: minmax(0, 1fr) auto;
-    align-items: center;
-  }
-
-  .brand {
-    grid-column: 1;
-    grid-row: 1;
-    min-width: 0;
-  }
-
   .lang-switch {
-    grid-column: 2;
-    grid-row: 1;
-    justify-self: end;
-    align-self: center;
+    padding-left: 0;
+    border-left: 0;
   }
 
   .lang-switch a {
-    min-width: 48px;
-    padding: 8px 12px;
+    margin-left: 8px;
+    padding: 7px 11px;
     font-size: 13px;
-    box-shadow: 0 6px 16px rgba(13, 27, 61, .08);
-  }
-
-  .nav {
-    grid-column: 1 / -1;
-    grid-row: 2;
   }
 
   html[lang="en"] .hero-copy h1 {
@@ -90,12 +77,6 @@ html[lang="en"] .home-app-content h3 {
 }
 
 @media (max-width: 520px) {
-  .lang-switch a {
-    min-width: 44px;
-    padding: 7px 10px;
-    font-size: 12px;
-  }
-
   html[lang="en"] .hero-copy h1 {
     white-space: normal;
     font-size: clamp(28px, 8.5vw, 36px);
