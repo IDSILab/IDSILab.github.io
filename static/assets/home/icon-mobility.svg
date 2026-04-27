@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="220" height="220" viewBox="0 0 220 220" role="img" aria-label="Future mobility icon">
+  <defs><linearGradient id="g" x1="44" y1="46" x2="174" y2="170"><stop stop-color="#0D1B3D"/><stop offset="1" stop-color="#0F7F8C"/></linearGradient><filter id="s" x="-20%" y="-20%" width="140%" height="140%"><feDropShadow dx="0" dy="12" stdDeviation="12" flood-color="#0D1B3D" flood-opacity=".12"/></filter></defs>
+  <circle cx="110" cy="110" r="96" fill="#EAF7F8"/>
+  <g filter="url(#s)" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M43 126c6-26 30-44 64-48h39c15 0 27 10 33 26l5 31c2 13-7 24-21 24h-6c-3-19-32-19-36 0H88c-4-19-32-19-36 0h-7c-14 0-23-11-20-24z" stroke="url(#g)" stroke-width="9"/>
+    <path d="M82 99h55c14 0 24 8 31 20H58c6-10 14-17 24-20z" stroke="#0F7F8C" stroke-width="7"/>
+    <path d="M61 145h22M102 145h43" stroke="#0D1B3D" stroke-width="7"/>
+    <circle cx="70" cy="159" r="17" stroke="#0D1B3D" stroke-width="8"/>
+    <circle cx="139" cy="159" r="17" stroke="#0F7F8C" stroke-width="8"/>
+    <path d="M52 61c42-24 91-23 132 5" stroke="#0D1B3D" stroke-width="4" opacity=".75"/>
+    <path d="M44 181c43 23 96 23 139-3" stroke="#0F7F8C" stroke-width="4" opacity=".75"/>
+    <circle cx="48" cy="65" r="6" fill="#0D1B3D" stroke="none"/>
+    <circle cx="181" cy="177" r="6" fill="#0F7F8C" stroke="none"/>
+  </g>
+</svg>
