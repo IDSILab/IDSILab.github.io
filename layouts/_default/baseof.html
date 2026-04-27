@@ -7,6 +7,7 @@
   <title>{{ if .IsHome }}{{ .Site.Title }} | {{ .Site.Params.labNameEn }}{{ else }}{{ .Title }} | {{ .Site.Title }}{{ end }}</title>
   <link rel="icon" href="{{ "assets/favicon.svg" | relURL }}" type="image/svg+xml">
   <link rel="stylesheet" href="{{ "css/styles.css" | relURL }}">
+  <link rel="stylesheet" href="{{ "css/wide.css" | relURL }}">
 </head>
 <body>
   {{ partial "header.html" . }}
