@@ -1,0 +1,25 @@
+<footer class="site-footer">
+  <div class="container footer-grid">
+    <div class="footer-brand">
+      <img src="{{ "assets/logo-mark.svg" | relURL }}" alt="IDSI Lab logo mark">
+      <div>
+        <strong>IDSI Lab</strong>
+        <p>{{ .Site.Params.labNameZh }}</p>
+        <p>{{ .Site.Params.labNameEn }}</p>
+      </div>
+    </div>
+    <div>
+      <h3>联系我们</h3>
+      <p>📍 {{ .Site.Params.location }}</p>
+      <p>✉ {{ .Site.Params.email }}</p>
+      <p>🌐 https://IDSILab.github.io/</p>
+    </div>
+    <div>
+      <h3>快速链接</h3>
+      <p><a href="{{ "/research/" | relURL }}">研究方向</a></p>
+      <p><a href="{{ "/join/" | relURL }}">招生信息</a></p>
+      <p><a href="{{ "/outputs/" | relURL }}">研究成果</a></p>
+    </div>
+  </div>
+  <div class="copyright">© {{ now.Format "2006" }} IDSI Lab. All Rights Reserved.</div>
+</footer>
