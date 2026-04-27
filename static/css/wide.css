@@ -235,7 +235,7 @@
 }
 
 .home-research-content ul {
-  margin: 0;
+  margin: 0 0 14px;
   padding-left: 1.15em;
 }
 
@@ -244,6 +244,31 @@
   color: rgba(255, 255, 255, .96);
   font-size: 15px;
   line-height: 1.7;
+}
+
+.home-research-more {
+  position: relative;
+  z-index: 3;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  color: #fff;
+  font-size: 15px;
+  font-weight: 800;
+  line-height: 1;
+  opacity: .95;
+  text-decoration: none;
+}
+
+.home-research-more span {
+  color: #F5A623;
+  font-size: 22px;
+  line-height: 0;
+  transition: transform .18s ease;
+}
+
+.home-research-more:hover span {
+  transform: translateX(3px);
 }
 
 .home-app-section {
@@ -447,6 +472,10 @@
   .home-research-content li {
     font-size: 14px;
     line-height: 1.65;
+  }
+
+  .home-research-more {
+    font-size: 14px;
   }
 
   .home-app-card {
