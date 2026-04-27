@@ -203,7 +203,7 @@
   position: absolute;
   inset: 0;
   z-index: 1;
-  background: linear-gradient(90deg, rgba(5, 22, 58, .92) 0%, rgba(5, 22, 58, .74) 46%, rgba(5, 22, 58, .18) 100%);
+  background: linear-gradient(90deg, rgba(5, 22, 58, .16) 0%, rgba(5, 22, 58, .52) 38%, rgba(5, 22, 58, .92) 100%);
 }
 
 .home-research-card.teal::after {
@@ -216,6 +216,14 @@
   max-width: 62%;
   padding: 28px 28px 24px 28px;
   color: #fff;
+}
+
+.home-research-card:not(.teal) .home-research-content {
+  margin-left: auto;
+}
+
+.home-research-card.teal .home-research-content {
+  margin-left: 0;
 }
 
 .home-research-content h3 {
@@ -419,8 +427,11 @@
     min-height: 220px;
   }
 
-  .home-research-content {
+  .home-research-content,
+  .home-research-card:not(.teal) .home-research-content,
+  .home-research-card.teal .home-research-content {
     max-width: 100%;
+    margin-left: 0;
     padding: 24px 22px;
   }
 
