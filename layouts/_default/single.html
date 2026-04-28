@@ -3,7 +3,11 @@
   <div class="container research-hero-grid-v2">
     <div class="research-hero-copy-v2">
       <p class="research-eyebrow-v2">IDSI Lab</p>
+      {{ if and (eq .Site.Language.Lang "zh") (eq .RelPermalink "/about/") }}
+      <h1 class="about-title-mixed">关于 <span>IDSI Lab</span></h1>
+      {{ else }}
       <h1>{{ .Title }}</h1>
+      {{ end }}
       {{ with .Params.subtitle }}<p>{{ . }}</p>{{ end }}
     </div>
     <div class="research-hero-art-v2" aria-hidden="true">
