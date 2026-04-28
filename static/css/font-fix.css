@@ -1,9 +1,16 @@
 /* Typography consistency fixes for English homepage and research page.
    Keep headings strong but avoid the extra-heavy 900/950 weights used in the custom visual sections. */
 
-html[lang="en"] .hero-copy h1,
-html[lang="en"] .research-hero-copy-v2 h1 {
+html[lang="en"] .hero-copy h1 {
   font-weight: 800 !important;
+}
+
+/* Match the English Research page title with the typography used by other inner pages. */
+html[lang="en"] .research-hero-copy-v2 h1 {
+  font-size: 54px !important;
+  line-height: 1.2 !important;
+  font-weight: 700 !important;
+  letter-spacing: 0 !important;
 }
 
 html[lang="en"] .home-section-heading h2,
@@ -30,4 +37,11 @@ html[lang="en"] .lang-switch a {
 html[lang="en"] .btn,
 html[lang="en"] .home-research-more {
   font-weight: 700 !important;
+}
+
+@media (max-width: 860px) {
+  html[lang="en"] .research-hero-copy-v2 h1 {
+    font-size: 38px !important;
+    line-height: 1.2 !important;
+  }
 }
