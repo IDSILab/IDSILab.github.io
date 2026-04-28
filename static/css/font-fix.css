@@ -13,6 +13,12 @@ html[lang="en"] .research-hero-copy-v2 h1 {
   letter-spacing: 0 !important;
 }
 
+/* Make the Latin part in the Chinese About title lighter and cleaner. */
+html[lang="zh"] .about-title-mixed span {
+  font-weight: 500 !important;
+  letter-spacing: -0.02em;
+}
+
 html[lang="en"] .home-section-heading h2,
 html[lang="en"] .research-panel-head-v2 h2,
 html[lang="en"] .research-app-title-v2 {
