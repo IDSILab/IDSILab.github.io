@@ -1,0 +1,33 @@
+/* Typography consistency fixes for English homepage and research page.
+   Keep headings strong but avoid the extra-heavy 900/950 weights used in the custom visual sections. */
+
+html[lang="en"] .hero-copy h1,
+html[lang="en"] .research-hero-copy-v2 h1 {
+  font-weight: 800 !important;
+}
+
+html[lang="en"] .home-section-heading h2,
+html[lang="en"] .research-panel-head-v2 h2,
+html[lang="en"] .research-app-title-v2 {
+  font-weight: 800 !important;
+}
+
+html[lang="en"] .home-feature-content h3,
+html[lang="en"] .home-research-content h3,
+html[lang="en"] .home-app-content h3,
+html[lang="en"] .research-subbody-v2 h3,
+html[lang="en"] .research-app-strip-v2 h3 {
+  font-weight: 700 !important;
+}
+
+html[lang="en"] .research-subbody-v2 span,
+html[lang="en"] .research-eyebrow-v2,
+html[lang="en"] .research-index-v2,
+html[lang="en"] .lang-switch a {
+  font-weight: 700 !important;
+}
+
+html[lang="en"] .btn,
+html[lang="en"] .home-research-more {
+  font-weight: 700 !important;
+}
