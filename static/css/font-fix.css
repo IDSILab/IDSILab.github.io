@@ -1,16 +1,46 @@
-/* Typography consistency fixes for English homepage and research page.
-   Keep headings strong but avoid the extra-heavy 900/950 weights used in the custom visual sections. */
+/* Typography consistency fixes for English homepage and all inner page title areas.
+   Keep headings strong but avoid the extra-heavy 900/950 weights used in early custom sections. */
 
 html[lang="en"] .hero-copy h1 {
   font-weight: 800 !important;
 }
 
-/* Match the English Research page title with the typography used by other inner pages. */
-html[lang="en"] .research-hero-copy-v2 h1 {
+/* Unify title position and typography for all non-home page hero sections,
+   including Research, Overview, Team, Outputs, Join and Contact. */
+.research-hero-v2 {
+  padding: 58px 0 50px !important;
+}
+
+.research-hero-grid-v2 {
+  min-height: 230px !important;
+  align-items: center !important;
+}
+
+.research-hero-copy-v2 {
+  padding-top: 0 !important;
+}
+
+.research-eyebrow-v2 {
+  margin: 0 0 8px !important;
+  font-size: 14px !important;
+  line-height: 1.2 !important;
+  font-weight: 700 !important;
+  letter-spacing: .16em !important;
+}
+
+.research-hero-copy-v2 h1 {
+  margin: 0 !important;
   font-size: 54px !important;
   line-height: 1.2 !important;
   font-weight: 700 !important;
   letter-spacing: 0 !important;
+}
+
+.research-hero-copy-v2 p:not(.research-eyebrow-v2) {
+  max-width: 620px !important;
+  margin: 16px 0 0 !important;
+  font-size: 19px !important;
+  line-height: 1.75 !important;
 }
 
 /* Make the Latin part in the Chinese About title lighter and cleaner. */
@@ -34,7 +64,6 @@ html[lang="en"] .research-app-strip-v2 h3 {
 }
 
 html[lang="en"] .research-subbody-v2 span,
-html[lang="en"] .research-eyebrow-v2,
 html[lang="en"] .research-index-v2,
 html[lang="en"] .lang-switch a {
   font-weight: 700 !important;
@@ -46,8 +75,21 @@ html[lang="en"] .home-research-more {
 }
 
 @media (max-width: 860px) {
-  html[lang="en"] .research-hero-copy-v2 h1 {
+  .research-hero-v2 {
+    padding: 40px 0 34px !important;
+  }
+
+  .research-hero-grid-v2 {
+    min-height: auto !important;
+  }
+
+  .research-hero-copy-v2 h1 {
     font-size: 38px !important;
     line-height: 1.2 !important;
+  }
+
+  .research-hero-copy-v2 p:not(.research-eyebrow-v2) {
+    font-size: 16px !important;
+    line-height: 1.68 !important;
   }
 }
