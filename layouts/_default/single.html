@@ -1,9 +1,21 @@
 {{ define "main" }}
-<section class="page-hero">
-  <div class="container">
-    <p class="eyebrow">IDSI Lab</p>
-    <h1>{{ .Title }}</h1>
-    {{ with .Params.subtitle }}<p>{{ . }}</p>{{ end }}
+<section class="research-hero-v2 page-hero-unified">
+  <div class="container research-hero-grid-v2">
+    <div class="research-hero-copy-v2">
+      <p class="research-eyebrow-v2">IDSI Lab</p>
+      <h1>{{ .Title }}</h1>
+      {{ with .Params.subtitle }}<p>{{ . }}</p>{{ end }}
+    </div>
+    <div class="research-hero-art-v2" aria-hidden="true">
+      <div class="research-art-node node-a"></div>
+      <div class="research-art-node node-b"></div>
+      <div class="research-art-node node-c"></div>
+      <div class="research-art-line line-a"></div>
+      <div class="research-art-line line-b"></div>
+      <div class="research-art-head"></div>
+      <div class="research-art-arm"></div>
+      <div class="research-art-mobility"></div>
+    </div>
   </div>
 </section>
 <section class="section page-content">
