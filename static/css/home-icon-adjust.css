@@ -1,0 +1,31 @@
+/* Final homepage icon size adjustments. */
+.home-app-card {
+  grid-template-columns: 106px minmax(0, 1fr) auto !important;
+}
+
+.home-app-icon {
+  width: 96px !important;
+  height: 96px !important;
+}
+
+@media (max-width: 860px) {
+  .home-app-card {
+    grid-template-columns: 90px minmax(0, 1fr) auto !important;
+  }
+
+  .home-app-icon {
+    width: 82px !important;
+    height: 82px !important;
+  }
+}
+
+@media (max-width: 520px) {
+  .home-app-card {
+    grid-template-columns: 1fr !important;
+  }
+
+  .home-app-icon {
+    width: 82px !important;
+    height: 82px !important;
+  }
+}
