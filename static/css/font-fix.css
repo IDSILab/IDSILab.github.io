@@ -56,6 +56,48 @@ html[lang="en"] .hero-copy h1 {
   letter-spacing: 0 !important;
 }
 
+/* Research page SVG artwork overrides. */
+.research-hero-cover-v2 {
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  opacity: 1 !important;
+}
+
+.research-hero-cover-v2::before {
+  display: none !important;
+}
+
+.research-hero-cover-v2 img {
+  width: 100% !important;
+  height: 100% !important;
+  max-height: 250px !important;
+  object-fit: contain !important;
+  display: block !important;
+}
+
+.research-panel-icon-v2 img,
+.research-subcard-v2 img,
+.research-app-strip-v2 img {
+  display: block !important;
+  object-fit: contain !important;
+}
+
+.research-panel-icon-v2 img {
+  width: 42px !important;
+  height: 42px !important;
+}
+
+.research-subcard-v2 img {
+  width: 54px !important;
+  height: 54px !important;
+}
+
+.research-app-strip-v2 img {
+  width: 62px !important;
+  height: 62px !important;
+}
+
 /* Keep the Latin part in the Chinese About title slightly lighter, without changing its position. */
 html[lang="zh"] .about-title-mixed span {
   font-weight: 500 !important;
