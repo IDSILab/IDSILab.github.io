@@ -1,13 +1,15 @@
-/* Typography consistency fixes for English homepage and all inner page title areas.
-   Keep headings strong but avoid the extra-heavy 900/950 weights used in early custom sections. */
+/* Typography consistency fixes for homepage and all inner page title areas.
+   This keeps every non-home page hero section aligned with the Research page style,
+   while avoiding the extra-heavy 900/950 weights used in early custom sections. */
 
 html[lang="en"] .hero-copy h1 {
   font-weight: 800 !important;
 }
 
-/* Unify title position and typography for all non-home page hero sections,
-   including Research, Overview, Team, Outputs, Join and Contact. */
-.research-hero-v2 {
+/* Unified title area for all non-home pages:
+   Research, Overview, Team, Outputs, Join and Contact. */
+.research-hero-v2,
+.page-hero-unified {
   padding: 58px 0 50px !important;
 }
 
@@ -17,19 +19,26 @@ html[lang="en"] .hero-copy h1 {
 }
 
 .research-hero-copy-v2 {
+  width: 100% !important;
   padding-top: 0 !important;
+  align-self: center !important;
 }
 
 .research-eyebrow-v2 {
   margin: 0 0 8px !important;
+  color: #0F7F8C !important;
+  font-family: "Inter", "Source Han Sans SC", "HarmonyOS Sans SC", "PingFang SC", "Microsoft YaHei", Arial, sans-serif !important;
   font-size: 14px !important;
   line-height: 1.2 !important;
   font-weight: 700 !important;
   letter-spacing: .16em !important;
+  text-transform: uppercase !important;
 }
 
 .research-hero-copy-v2 h1 {
   margin: 0 !important;
+  color: #0D1B3D !important;
+  font-family: "Inter", "Source Han Sans SC", "HarmonyOS Sans SC", "PingFang SC", "Microsoft YaHei", Arial, sans-serif !important;
   font-size: 54px !important;
   line-height: 1.2 !important;
   font-weight: 700 !important;
@@ -39,14 +48,18 @@ html[lang="en"] .hero-copy h1 {
 .research-hero-copy-v2 p:not(.research-eyebrow-v2) {
   max-width: 620px !important;
   margin: 16px 0 0 !important;
+  color: #3F4B63 !important;
+  font-family: "Inter", "Source Han Sans SC", "HarmonyOS Sans SC", "PingFang SC", "Microsoft YaHei", Arial, sans-serif !important;
   font-size: 19px !important;
   line-height: 1.75 !important;
+  font-weight: 400 !important;
+  letter-spacing: 0 !important;
 }
 
-/* Make the Latin part in the Chinese About title lighter and cleaner. */
+/* Keep the Latin part in the Chinese About title slightly lighter, without changing its position. */
 html[lang="zh"] .about-title-mixed span {
   font-weight: 500 !important;
-  letter-spacing: -0.02em;
+  letter-spacing: -0.02em !important;
 }
 
 html[lang="en"] .home-section-heading h2,
@@ -75,7 +88,8 @@ html[lang="en"] .home-research-more {
 }
 
 @media (max-width: 860px) {
-  .research-hero-v2 {
+  .research-hero-v2,
+  .page-hero-unified {
     padding: 40px 0 34px !important;
   }
 
