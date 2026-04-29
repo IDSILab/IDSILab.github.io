@@ -8,7 +8,7 @@ subtitle: Contact
 Please contact us by email for collaboration, visits, student applications, and project inquiries.
 
 - Email: contact@idsi-lab.org
-- Website: https://IDSILab.github.io/
+- Website: https://www.idsilab.org/
 - GitHub: https://github.com/IDSILab
 
 ## Collaboration
