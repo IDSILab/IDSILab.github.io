@@ -87,11 +87,17 @@ html[lang="en"] .hero-copy h1 {
   display: block !important;
 }
 
+.research-panel-head-v2 {
+  grid-template-columns: 132px minmax(0, .9fr) minmax(320px, 1fr) !important;
+}
+
 .research-panel-icon-v2 {
-  width: 66px !important;
-  height: 66px !important;
+  width: 132px !important;
+  height: 132px !important;
   padding: 0 !important;
   overflow: visible !important;
+  border-width: 0 !important;
+  background: transparent !important;
 }
 
 .research-panel-icon-v2 img,
@@ -102,18 +108,26 @@ html[lang="en"] .hero-copy h1 {
 }
 
 .research-panel-icon-v2 img {
-  width: 66px !important;
-  height: 66px !important;
+  width: 132px !important;
+  height: 132px !important;
+}
+
+.research-subcard-v2 {
+  grid-template-columns: 108px minmax(0, 1fr) 18px !important;
 }
 
 .research-subcard-v2 img {
-  width: 54px !important;
-  height: 54px !important;
+  width: 108px !important;
+  height: 108px !important;
+}
+
+.research-app-strip-v2 article {
+  grid-template-columns: 124px minmax(0, 1fr) !important;
 }
 
 .research-app-strip-v2 img {
-  width: 62px !important;
-  height: 62px !important;
+  width: 124px !important;
+  height: 124px !important;
 }
 
 /* Keep the Latin part in the Chinese About title slightly lighter, without changing its position. */
@@ -157,6 +171,38 @@ html[lang="en"] .home-research-more {
     height: 260px !important;
     margin-top: 18px !important;
   }
+
+  .research-panel-head-v2 {
+    grid-template-columns: 110px 1fr !important;
+  }
+
+  .research-panel-head-v2 p {
+    grid-column: 2 !important;
+  }
+
+  .research-panel-icon-v2,
+  .research-panel-icon-v2 img {
+    width: 110px !important;
+    height: 110px !important;
+  }
+
+  .research-subcard-v2 {
+    grid-template-columns: 92px minmax(0, 1fr) 18px !important;
+  }
+
+  .research-subcard-v2 img {
+    width: 92px !important;
+    height: 92px !important;
+  }
+
+  .research-app-strip-v2 article {
+    grid-template-columns: 104px minmax(0, 1fr) !important;
+  }
+
+  .research-app-strip-v2 img {
+    width: 104px !important;
+    height: 104px !important;
+  }
 }
 
 @media (max-width: 860px) {
@@ -183,13 +229,42 @@ html[lang="en"] .home-research-more {
     display: none !important;
   }
 
-  .research-panel-icon-v2 {
-    width: 56px !important;
-    height: 56px !important;
+  .research-panel-head-v2 {
+    grid-template-columns: 86px 1fr !important;
   }
 
+  .research-panel-head-v2 p {
+    grid-column: 1 / -1 !important;
+  }
+
+  .research-panel-icon-v2,
   .research-panel-icon-v2 img {
-    width: 56px !important;
-    height: 56px !important;
+    width: 86px !important;
+    height: 86px !important;
+  }
+
+  .research-subcard-v2 {
+    grid-template-columns: 76px 1fr 14px !important;
+  }
+
+  .research-subcard-v2 img {
+    width: 76px !important;
+    height: 76px !important;
+  }
+
+  .research-app-strip-v2 article {
+    grid-template-columns: 82px minmax(0, 1fr) !important;
+  }
+
+  .research-app-strip-v2 img {
+    width: 82px !important;
+    height: 82px !important;
+  }
+}
+
+@media (max-width: 520px) {
+  .research-subcard-v2,
+  .research-app-strip-v2 article {
+    grid-template-columns: 1fr !important;
   }
 }
