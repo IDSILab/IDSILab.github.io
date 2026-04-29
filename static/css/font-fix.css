@@ -58,6 +58,25 @@ html[lang="en"] .hero-copy h1 {
   letter-spacing: 0 !important;
 }
 
+/* Homepage icon enlargement: make the four feature-card icons and key application icons 1.5x larger. */
+.home-feature-card {
+  grid-template-columns: 114px minmax(0, 1fr) !important;
+}
+
+.home-feature-icon {
+  width: 108px !important;
+  height: 108px !important;
+}
+
+.home-app-card {
+  grid-template-columns: 138px minmax(0, 1fr) auto !important;
+}
+
+.home-app-icon {
+  width: 126px !important;
+  height: 126px !important;
+}
+
 /* Research page SVG artwork overrides. */
 .research-hero-cover-v2 {
   position: absolute !important;
@@ -229,6 +248,24 @@ html[lang="en"] .home-research-more {
     display: none !important;
   }
 
+  .home-feature-card {
+    grid-template-columns: 96px minmax(0, 1fr) !important;
+  }
+
+  .home-feature-icon {
+    width: 87px !important;
+    height: 87px !important;
+  }
+
+  .home-app-card {
+    grid-template-columns: 108px minmax(0, 1fr) auto !important;
+  }
+
+  .home-app-icon {
+    width: 102px !important;
+    height: 102px !important;
+  }
+
   .research-panel-head-v2 {
     grid-template-columns: 86px 1fr !important;
   }
@@ -263,6 +300,21 @@ html[lang="en"] .home-research-more {
 }
 
 @media (max-width: 520px) {
+  .home-feature-card,
+  .home-app-card {
+    grid-template-columns: 1fr !important;
+  }
+
+  .home-feature-icon {
+    width: 75px !important;
+    height: 75px !important;
+  }
+
+  .home-app-icon {
+    width: 102px !important;
+    height: 102px !important;
+  }
+
   .research-subcard-v2,
   .research-app-strip-v2 article {
     grid-template-columns: 1fr !important;
