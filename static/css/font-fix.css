@@ -58,23 +58,23 @@ html[lang="en"] .hero-copy h1 {
   letter-spacing: 0 !important;
 }
 
-/* Homepage icon enlargement: make the four feature-card icons and key application icons 1.5x larger. */
+/* Homepage icon enlargement: set the four feature-card icons and key application icons to about 1.2x the original size. */
 .home-feature-card {
-  grid-template-columns: 114px minmax(0, 1fr) !important;
+  grid-template-columns: 92px minmax(0, 1fr) !important;
 }
 
 .home-feature-icon {
-  width: 108px !important;
-  height: 108px !important;
+  width: 86px !important;
+  height: 86px !important;
 }
 
 .home-app-card {
-  grid-template-columns: 138px minmax(0, 1fr) auto !important;
+  grid-template-columns: 112px minmax(0, 1fr) auto !important;
 }
 
 .home-app-icon {
-  width: 126px !important;
-  height: 126px !important;
+  width: 101px !important;
+  height: 101px !important;
 }
 
 /* Research page SVG artwork overrides. */
@@ -249,21 +249,21 @@ html[lang="en"] .home-research-more {
   }
 
   .home-feature-card {
-    grid-template-columns: 96px minmax(0, 1fr) !important;
+    grid-template-columns: 74px minmax(0, 1fr) !important;
   }
 
   .home-feature-icon {
-    width: 87px !important;
-    height: 87px !important;
+    width: 70px !important;
+    height: 70px !important;
   }
 
   .home-app-card {
-    grid-template-columns: 108px minmax(0, 1fr) auto !important;
+    grid-template-columns: 90px minmax(0, 1fr) auto !important;
   }
 
   .home-app-icon {
-    width: 102px !important;
-    height: 102px !important;
+    width: 82px !important;
+    height: 82px !important;
   }
 
   .research-panel-head-v2 {
@@ -306,13 +306,13 @@ html[lang="en"] .home-research-more {
   }
 
   .home-feature-icon {
-    width: 75px !important;
-    height: 75px !important;
+    width: 70px !important;
+    height: 70px !important;
   }
 
   .home-app-icon {
-    width: 102px !important;
-    height: 102px !important;
+    width: 82px !important;
+    height: 82px !important;
   }
 
   .research-subcard-v2,
