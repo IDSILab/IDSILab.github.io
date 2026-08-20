@@ -10,7 +10,7 @@ disableKinds = ['taxonomy', 'term']
   abbreviation = 'IDSI Lab'
   descriptionZh = '以知识驱动设计，用智能重塑系统创新'
   descriptionEn = 'Design with knowledge, reshape system innovation with intelligence.'
-  email = 'contact@idsi-lab.org'
+  email = 'xymao@njust.edu.cn'
   location = 'China'
 
 [languages]
@@ -25,7 +25,7 @@ disableKinds = ['taxonomy', 'term']
       abbreviation = 'IDSI Lab'
       descriptionZh = '以知识驱动设计，用智能重塑系统创新'
       descriptionEn = 'Design with knowledge, reshape system innovation with intelligence.'
-      email = 'contact@idsi-lab.org'
+      email = 'xymao@njust.edu.cn'
       location = 'China'
   [languages.en]
     languageCode = 'en'
@@ -38,7 +38,7 @@ disableKinds = ['taxonomy', 'term']
       abbreviation = 'IDSI Lab'
       descriptionZh = '以知识驱动设计，用智能重塑系统创新'
       descriptionEn = 'Design with knowledge, reshape system innovation with intelligence.'
-      email = 'contact@idsi-lab.org'
+      email = 'xymao@njust.edu.cn'
       location = 'China'
 
 [markup]
