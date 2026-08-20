@@ -7,7 +7,7 @@ subtitle: Contact
 
 Please contact us by email for collaboration, visits, student applications, and project inquiries.
 
-- Email: contact@idsi-lab.org
+- Email: xymao@njust.edu.cn
 - Website: https://www.idsilab.org/
 - GitHub: https://github.com/IDSILab
 
