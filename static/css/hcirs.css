@@ -1,0 +1,39 @@
+/* Concise public-facing HCIRS layout. Loaded last so the homepage and Research page
+   reflect the three research thrusts and two application contexts cleanly. */
+
+.home-feature-grid {
+  grid-template-columns: repeat(3, minmax(0, 1fr)) !important;
+}
+
+.home-research-grid {
+  grid-template-columns: 1fr !important;
+}
+
+.home-app-grid {
+  grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
+}
+
+.research-panel-v2 > .research-panel-head-v2:last-child {
+  margin-bottom: 0 !important;
+}
+
+.research-app-strip-v2 {
+  grid-template-columns: 180px repeat(2, minmax(0, 1fr)) !important;
+}
+
+@media (max-width: 1180px) {
+  .home-feature-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
+  }
+
+  .home-app-grid,
+  .research-app-strip-v2 {
+    grid-template-columns: 1fr !important;
+  }
+}
+
+@media (max-width: 860px) {
+  .home-feature-grid {
+    grid-template-columns: 1fr !important;
+  }
+}
