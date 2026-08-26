@@ -7,7 +7,7 @@ subtitle: Recruitment
 
 The lab welcomes students from design, engineering, computer science, artificial intelligence, human factors, interaction design, and related interdisciplinary backgrounds who are interested in robotics, AI, and human–robot interaction.
 
-Our core research positioning is **Human-Centered Intelligent Robotic Systems (HCIRS)**, organized around three long-term scientific lines: Human Capability, Human Agency, and Human Role. We value problem awareness, self-directed learning, interdisciplinary thinking, and hands-on practice, and encourage students to translate human-centered questions into models, robot/system mechanisms, prototypes, and experimental validation.
+Our core research positioning is **Human-Centered Intelligent Robotic Systems (HCIRS)**, organized around three long-term scientific lines: Human Capability, Human Agency, and Human Role. We value problem awareness, self-directed learning, interdisciplinary thinking, and hands-on practice, and encourage students to connect real-world questions with robotic system development and experimental validation.
 
 ### Students Who May Fit
 
@@ -18,9 +18,8 @@ Our core research positioning is **Human-Centered Intelligent Robotic Systems (H
 
 ### Possible Research Topics
 
-- Human capability and skill preservation, development, and co-adaptation in robotic assistance
-- Human oversight, intervention, control, and agency in highly autonomous robots
-- Robot interaction and system behavior in multi-party and multi-role environments
-- Shared and adaptive autonomy, multi-robot systems, AI and foundation models for human-centered robotics
-- Robot/system design, human factors, multimodal interaction, and intelligent design methods
-- System research and validation in complex/industrial robotics and assistive/service robotics
+- Human Capability and Skill in Robotic Assistance
+- Human Oversight and Agency in Autonomous Robots
+- Human Role in Multi-party and Multi-stakeholder Robotic Systems
+- Human-centered robotics in complex, field, and industrial environments
+- Human-centered robotics in assistive and service settings
