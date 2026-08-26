@@ -7,18 +7,25 @@ subtitle: "Laboratory Overview"
 
 **IDSI Lab**
 
-The Lab for Intelligent Design and System Innovation focuses on Human-Centered Intelligent Robotic Systems (HCIRS). We study how human capability, agency, and roles evolve as robots become more capable and autonomous, and how robotic systems can support effective, sustainable, and human-compatible collaboration.
+The Lab for Intelligent Design and System Innovation is positioned primarily within **Robotics**, with **Human-Centered Robotics** as its overarching research paradigm and **Human-Centered Intelligent Robotic Systems (HCIRS)** as its core research focus.
 
-Our research addresses human capability and skill in robotic assistance, human oversight and agency in autonomous robots, and robot interaction and behavior in multi-party settings. We also develop cross-cutting methods in intelligent design, human factors and human–robot interaction, artificial intelligence, and robotic system design, with validation in complex, field, industrial, assistive, and service robotics.
+We investigate how increasing robot capability, autonomy, and social presence reshape human capability, agency, and roles, and how robotic systems should be designed to support effective, sustainable, and human-compatible collaboration.
 
-The lab values problem-driven interdisciplinary research and hands-on prototyping, bringing together perspectives from design, engineering, computer science, human factors, and interaction to explore the future of collaboration between people and intelligent robots.
+Our research is organized around three long-term scientific lines: **human capability and skill preservation, development, and co-adaptation in robotic assistance (Human Capability)**; **human oversight, intervention, control, and agency in highly autonomous robots (Human Agency)**; and **robot behavior and human–robot system relationships in multi-party, multi-role, and multi-stakeholder environments (Human Role)**.
+
+The three lines share common robotics platforms and cross-cutting methods including AI and foundation models, shared and adaptive autonomy, multi-robot systems, robot/system design, human factors, and human–robot interaction. We prioritize validation in two classes of real-world environments: **complex, field, and industrial robotics** and **assistive and service robotics**.
+
+Our work follows a systems-oriented research loop that connects human problems to formal representations, robot/system mechanisms, physical or simulated robotic systems, and joint human–system evaluation, with the aim of building research that combines robotics depth with a distinctive human-centered perspective.
 
 ## Core Keywords
 
-- Human-Centered Intelligent Robotic Systems
-- Human-Robot Interaction and Collaboration
-- Intelligent Design Methods
+- Robotics
+- Human-Centered Robotics
+- Human-Centered Intelligent Robotic Systems (HCIRS)
+- Human Capability
+- Human Agency
+- Human Role
 - Shared and Adaptive Autonomy
-- Human Factors and Multimodal Interaction
-- Assistive and Service Robotics
-- Complex, Field, and Industrial Robotics
+- Multi-Robot Systems
+- Human Factors and Human-Robot Interaction
+- Robot/System Design
