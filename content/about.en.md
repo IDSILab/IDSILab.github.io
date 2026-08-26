@@ -7,17 +7,18 @@ subtitle: "Laboratory Overview"
 
 **IDSI Lab**
 
-The Lab for Intelligent Design and System Innovation focuses on intelligent design, intelligent systems, and interdisciplinary innovation. Our research centers on knowledge-driven design generation and design reasoning, as well as multimodal interaction and supportive design.
+The Lab for Intelligent Design and System Innovation focuses on Human-Centered Intelligent Robotic Systems (HCIRS). We study how human capability, agency, and roles evolve as robots become more capable and autonomous, and how robotic systems can support effective, sustainable, and human-compatible collaboration.
 
-The lab aims to develop research frameworks that integrate knowledge representation, constraint reasoning, generative methods, and system validation. We pursue sustained research in conceptual design of complex systems, human-AI collaborative design, multimodal sensing, game-based interaction, and supportive embodied systems.
+Our research addresses human capability and skill in robotic assistance, human oversight and agency in autonomous robots, and robot interaction and behavior in multi-party settings. We also develop cross-cutting methods in intelligent design, human factors and human–robot interaction, artificial intelligence, and robotic system design, with validation in complex, field, industrial, assistive, and service robotics.
 
-The lab emphasizes both methodological innovation and practical relevance, serving research and education in complex embodied systems, health promotion, capability development, disability support, and embodied interactive products.
+The lab values problem-driven interdisciplinary research and hands-on prototyping, bringing together perspectives from design, engineering, computer science, human factors, and interaction to explore the future of collaboration between people and intelligent robots.
 
 ## Core Keywords
 
-- Knowledge-driven intelligent design generation and design reasoning
-- Multimodal interaction and supportive design
-- Conceptual design of complex systems
-- Human-AI design support
-- Supportive embodied systems and interactive products
-- Future mobility and transportation design
+- Human-Centered Intelligent Robotic Systems
+- Human-Robot Interaction and Collaboration
+- Intelligent Design Methods
+- Shared and Adaptive Autonomy
+- Human Factors and Multimodal Interaction
+- Assistive and Service Robotics
+- Complex, Field, and Industrial Robotics
