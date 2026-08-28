@@ -13,4 +13,4 @@ Please contact us by email for collaboration, visits, student applications, and 
 
 ## Collaboration
 
-IDSI Lab welcomes collaboration in intelligent design, system innovation, human-AI collaboration, multimodal interaction, supportive embodied systems, robotics design, and future mobility design.
+H-CORD Lab welcomes collaboration in intelligent design, system innovation, human-AI collaboration, multimodal interaction, supportive embodied systems, robotics design, and future mobility design.
