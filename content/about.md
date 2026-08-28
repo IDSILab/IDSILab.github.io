@@ -1,14 +1,14 @@
 ---
-title: "关于 IDSI Lab"
+title: "关于 H-CORD Lab"
 subtitle: "实验室概况"
 ---
 
-## 智能设计与系统创新实验室
+## 人本机器人与智能设计实验室
 
-**Lab for Intelligent Design and System Innovation**  
-**IDSI Lab**
+**Human-Centered Robotics and Design Laboratory**  
+**H-CORD Lab**
 
-智能设计与系统创新实验室以**机器人学（Robotics）**为主要学术归属，以**Human-Centered Robotics**为总体研究范式，核心聚焦**人本智能机器人系统（Human-Centered Intelligent Robotic Systems, HCIRS）**。
+人本机器人与智能设计实验室（H-CORD Lab）以**机器人学（Robotics）**为主要学术归属，以**Human-Centered Robotics**为核心研究领域，并以设计、人因与人机交互等为重要交叉基础。
 
 实验室研究机器人能力、自主性和社会存在不断增强过程中人的能力、主体性和角色变化，以及机器人系统如何据此实现有效、可持续且与人相容的协同。
 
@@ -20,7 +20,7 @@ subtitle: "实验室概况"
 
 - Robotics
 - Human-Centered Robotics
-- Human-Centered Intelligent Robotic Systems (HCIRS)
+- Design
 - Human Capability
 - Human Agency
 - Human Role
