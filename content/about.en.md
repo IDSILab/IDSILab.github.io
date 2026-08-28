@@ -1,13 +1,13 @@
 ---
-title: "About IDSI Lab"
+title: "About H-CORD Lab"
 subtitle: "Laboratory Overview"
 ---
 
-## Lab for Intelligent Design and System Innovation
+## Human-Centered Robotics and Design Laboratory
 
-**IDSI Lab**
+**H-CORD Lab**
 
-The Lab for Intelligent Design and System Innovation is positioned primarily within **Robotics**, with **Human-Centered Robotics** as its overarching research paradigm and **Human-Centered Intelligent Robotic Systems (HCIRS)** as its core research focus.
+The Human-Centered Robotics and Design Laboratory (H-CORD Lab) is positioned primarily within **Robotics**, with **Human-Centered Robotics** as its core research field and design, human factors, and human–robot interaction as important interdisciplinary foundations.
 
 We investigate how increasing robot capability, autonomy, and social presence reshape human capability, agency, and roles, and how robotic systems should be designed to support effective, sustainable, and human-compatible collaboration.
 
@@ -19,7 +19,7 @@ We prioritize research and validation in two real-world contexts: **complex, fie
 
 - Robotics
 - Human-Centered Robotics
-- Human-Centered Intelligent Robotic Systems (HCIRS)
+- Design
 - Human Capability
 - Human Agency
 - Human Role
