@@ -1,10 +1,10 @@
-# IDSI Lab Hugo Website
+# H-CORD Lab Hugo Website
 
-This repository contains the official Hugo-based website for **IDSI Lab — Lab for Intelligent Design and System Innovation**.
+This repository contains the official Hugo-based website for **H-CORD Lab — Human-Centered Robotics and Design Laboratory**.
 
-中文名：智能设计与系统创新实验室  
-English Name: Lab for Intelligent Design and System Innovation  
-Abbreviation: IDSI Lab
+中文名：人本机器人与智能设计实验室  
+English Name: Human-Centered Robotics and Design Laboratory  
+Abbreviation: H-CORD Lab
 
 ## Tech Stack
 
