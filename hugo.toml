@@ -1,15 +1,15 @@
 baseURL = 'https://www.idsilab.org/'
-title = 'IDSI Lab'
+title = 'H-CORD Lab'
 defaultContentLanguage = 'zh'
 defaultContentLanguageInSubdir = false
 disableKinds = ['taxonomy', 'term']
 
 [params]
-  labNameZh = '智能设计与系统创新实验室'
-  labNameEn = 'Lab for Intelligent Design and System Innovation'
-  abbreviation = 'IDSI Lab'
-  descriptionZh = '以知识驱动设计，用智能重塑系统创新'
-  descriptionEn = 'Design with knowledge, reshape system innovation with intelligence.'
+  labNameZh = '人本机器人与智能设计实验室'
+  labNameEn = 'Human-Centered Robotics and Design Laboratory'
+  abbreviation = 'H-CORD Lab'
+  descriptionZh = '人本机器人与智能设计'
+  descriptionEn = 'Human-Centered Robotics and Design'
   email = 'xymao@njust.edu.cn'
   location = 'China'
 
@@ -18,26 +18,26 @@ disableKinds = ['taxonomy', 'term']
     languageCode = 'zh-CN'
     languageName = '中文'
     weight = 1
-    title = 'IDSI Lab'
+    title = 'H-CORD Lab'
     [languages.zh.params]
-      labNameZh = '智能设计与系统创新实验室'
-      labNameEn = 'Lab for Intelligent Design and System Innovation'
-      abbreviation = 'IDSI Lab'
-      descriptionZh = '以知识驱动设计，用智能重塑系统创新'
-      descriptionEn = 'Design with knowledge, reshape system innovation with intelligence.'
+      labNameZh = '人本机器人与智能设计实验室'
+      labNameEn = 'Human-Centered Robotics and Design Laboratory'
+      abbreviation = 'H-CORD Lab'
+      descriptionZh = '人本机器人与智能设计'
+      descriptionEn = 'Human-Centered Robotics and Design'
       email = 'xymao@njust.edu.cn'
       location = 'China'
   [languages.en]
     languageCode = 'en'
     languageName = 'English'
     weight = 2
-    title = 'IDSI Lab'
+    title = 'H-CORD Lab'
     [languages.en.params]
-      labNameZh = '智能设计与系统创新实验室'
-      labNameEn = 'Lab for Intelligent Design and System Innovation'
-      abbreviation = 'IDSI Lab'
-      descriptionZh = '以知识驱动设计，用智能重塑系统创新'
-      descriptionEn = 'Design with knowledge, reshape system innovation with intelligence.'
+      labNameZh = '人本机器人与智能设计实验室'
+      labNameEn = 'Human-Centered Robotics and Design Laboratory'
+      abbreviation = 'H-CORD Lab'
+      descriptionZh = '人本机器人与智能设计'
+      descriptionEn = 'Human-Centered Robotics and Design'
       email = 'xymao@njust.edu.cn'
       location = 'China'
 
