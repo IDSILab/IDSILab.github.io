@@ -5,7 +5,7 @@ subtitle: Team
 
 ## Team Members
 
-IDSI Lab welcomes students from industrial design, product design, transportation design, robotics engineering, mechanical engineering, artificial intelligence, computer science, interaction design, digital media, and related interdisciplinary backgrounds.
+H-CORD Lab welcomes students from industrial design, product design, transportation design, robotics engineering, mechanical engineering, artificial intelligence, computer science, interaction design, digital media, and related interdisciplinary backgrounds.
 
 ### Principal Investigator
 
