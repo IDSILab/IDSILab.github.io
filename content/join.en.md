@@ -7,7 +7,7 @@ subtitle: Recruitment
 
 The lab welcomes students from design, engineering, computer science, artificial intelligence, human factors, interaction design, and related interdisciplinary backgrounds who are interested in robotics, AI, and human–robot interaction.
 
-Our core research positioning is **Human-Centered Intelligent Robotic Systems (HCIRS)**, organized around three long-term scientific lines: Human Capability, Human Agency, and Human Role. We value problem awareness, self-directed learning, interdisciplinary thinking, and hands-on practice, and encourage students to connect real-world questions with robotic system development and experimental validation.
+Our core research field is **Human-Centered Robotics**, organized around three long-term scientific lines: Human Capability, Human Agency, and Human Role. We value problem awareness, self-directed learning, interdisciplinary thinking, and hands-on practice, and encourage students to connect real-world questions with robotic system development and experimental validation.
 
 ### Students Who May Fit
 
