@@ -1,7 +1,10 @@
 <header class="site-header">
   <div class="container header-inner">
-    <a class="brand" href="{{ "/" | relLangURL }}" aria-label="IDSI Lab home">
-      <img src="{{ "assets/logo.svg" | relURL }}" alt="IDSI Lab logo">
+    <a class="brand" href="{{ "/" | relLangURL }}" aria-label="H-CORD Lab home">
+      <div>
+        <strong>H-CORD Lab</strong>
+        <span>Human-Centered Robotics and Design Laboratory</span>
+      </div>
     </a>
     <nav class="nav" aria-label="Primary navigation">
       {{ if eq .Site.Language.Lang "en" }}
